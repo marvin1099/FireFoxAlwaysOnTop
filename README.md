@@ -1,6 +1,8 @@
 # 🖱️ Firefox Always On Top
 
-This is a native messaging host that allows a Firefox extension to toggle the "Always on Top" state,  
+This is a native messaging host that allows the Firefox extension:  
+https://addons.mozilla.org/en-US/firefox/addon/always-on-top/  
+to toggle the "Always on Top" state,  
 for any window currently under your mouse cursor, but for Linux.
 
 The original for Windows is here:  
