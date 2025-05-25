@@ -8,7 +8,7 @@ https://github.com/vm-devr/aot
 
 The code from the original is also here in this repo.  
 The only files I added are:
-- README.txt
+- README.md
 - LICENSE
 - FireFoxAlwaysOnTop.py
 
