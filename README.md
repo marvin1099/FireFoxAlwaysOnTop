@@ -14,7 +14,7 @@ The only files I added are:
 - LICENSE
 - FireFoxAlwaysOnTop.py
 
-## 🔧 Prerequisites
+## Prerequisites
 
 Ensure the following tools are installed on your system:
 
