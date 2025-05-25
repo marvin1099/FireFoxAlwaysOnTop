@@ -1,4 +1,4 @@
-# 🖱️ Firefox Always On Top
+# Firefox Always On Top
 
 This is a native messaging host that allows the Firefox extension:  
 https://addons.mozilla.org/en-US/firefox/addon/always-on-top/  
@@ -30,9 +30,9 @@ sudo pacman -S xdotool wmctrl    # Arch
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### ✅ Precompiled Binary
+### Precompiled Binary
 
 You can find the latest precompiled **onefile** binary in the [Releases](https://codeberg.org/marvin1099/FireFoxAlwaysOnTop) section.  
 Just download it and run:
@@ -45,7 +45,7 @@ This will install the native messaging host and set up everything automatically.
 
 ---
 
-### 🛠️ Build It Yourself
+### Build It Yourself
 
 You can also build and install the host yourself. Simply run:
 
@@ -61,7 +61,7 @@ This script will:
 
 ---
 
-## ⚙️ Optional Flags
+## Optional Flags
 
 * `--force`
   Force recompile and reinstall, even if the binary and manifest already exist.
@@ -77,7 +77,7 @@ python3 FireFoxAlwaysOnTop.py --force --keepbuild
 
 ---
 
-## 🧪 How it Works
+## How it Works
 
 The extension sends a request to the native host. The host then:
 
@@ -87,14 +87,14 @@ The extension sends a request to the native host. The host then:
 
 ---
 
-## 📁 Files Installed
+## Files Installed
 
 * The compiled binary is placed in `~/.mozilla/native-messaging-hosts/`
 * A manifest JSON is written there to allow Firefox to communicate with the binary
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 If it's not working:
 
